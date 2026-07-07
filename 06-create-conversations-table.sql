@@ -1,6 +1,6 @@
-CREATE TABLE conversation (
+CREATE TABLE conversations (
     user_name VARCHAR(200),
-    EMPLOYER_NAME VARCHAR(250),
+    employer_name VARCHAR(250),
     message TEXT,
-    date_sent TIMESTAMP
+    date_sent TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
